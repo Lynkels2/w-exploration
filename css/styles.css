@@ -197,6 +197,8 @@ h2 {
         font-size: 0.8rem;
         margin-top: 30px; 
         padding-right: 100px;
+        display: inline;
+        white-space: nowrap;
     }
     .last .last-text br{
         display: none;
