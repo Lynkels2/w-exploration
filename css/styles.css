@@ -190,15 +190,12 @@ h2 {
         object-fit: contain;
        
     }
-    .last{
-        width: 100%;
-    }
+  
     .last-text{
         font-size: 0.3;
         margin-top: 25px; 
-        overflow: hidden;
-        white-space: nowrap;
-        display: flex;
+        
+        
        
     }
     .last .last-text br{
