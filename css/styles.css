@@ -194,11 +194,10 @@ h2 {
         width: 80%;
     }
     .last-text{
-        font-size: 0.8rem;
-        margin-top: 30px; 
+        font-size: 0.3;
+        margin-top: 25px; 
         padding-right: 100px;
-        display: inline;
-        white-space: nowrap;
+       
     }
     .last .last-text br{
         display: none;
