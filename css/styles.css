@@ -196,7 +196,8 @@ h2 {
     .last-text{
         font-size: 0.3;
         margin-top: 25px; 
-        padding-right: 100px;
+        overflow: hidden;
+        white-space: nowrap;
        
     }
     .last .last-text br{
