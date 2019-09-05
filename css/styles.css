@@ -112,9 +112,12 @@ h2 {
 
 .team {
     float: left;
-}
+    padding-right: 10px;
+ }
+    
 .last-text{
     font-size: 0.8rem;
+        margin-top: 18px;
 }
 .menu-links{
     display: none;
@@ -164,7 +167,8 @@ h2 {
     .aside {
         float: none;
         display: block;
-        width: 100%;
+        width: 80%;
+        
     }
 
     .main {
@@ -172,6 +176,7 @@ h2 {
         width: 100%;
         float: none;
         display: block;
+        
     }
 
     .container {
@@ -179,16 +184,22 @@ h2 {
         padding:0px 20px;
         margin: 2px auto auto auto;
     }
-
+     
     .team{
         width: 70px;
-        height: auto;
+        object-fit: contain;
+        padding-right: 10px;
+    }
+    .last{
+        width: 80%;
     }
     .last-text{
         font-size: 0.8rem;
+        margin-top: 30px; 
+        padding-right: 100px;
     }
     .last .last-text br{
-        display; none;
+        display: none;
     }
     .menu-links{
         display: none;
