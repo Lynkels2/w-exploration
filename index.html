@@ -1,61 +1,114 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/c6ff8b614e.js"></script>
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <!-- Nav link -->
-    <div class="header">
-      <ul>
-        <li class=""> <a href="#"><img src="images/logo1.jpg" alt="" width="50px" height="50px"></a> </li>
-        <li class="">
-          <a href="#">Products</a>
-        </li>
-        <li class="">
-          <a href="#">Solutions</a>
-        </li>
-        <li class="">
-          <a href="#">Resources</a>
-        </li>
-        <li class="">
-          <a href="#">Pricing</a>
-        </li>
-        <li style ="float:right">
-          <a href="demo">Request a Demo</a>
-        </li>
-        <li style ="float:right">
-          <a href="demo">Log In</a>
-        </li>
-      </ul>
+</head>
 
+<body>
+    <div class="main-container">
+        <!-- Nav link -->
+        <div class="header">
+            <ul>
+                <li class=""> <a href="#"><img class = "logo" src="images/w.png" alt="" width="50px" height="30px"></a> </li>
+                <li class="">
+                    <a href="#">Products</a>
+                </li>
+                <li class="">
+                    <a href="#">Solutions</a>
+                </li>
+                <li class="">
+                    <a href="#">Resources</a>
+                </li>
+                <li class="">
+                    <a href="#">Pricing</a>
+                </li>
+                <div class="demo">
+                        
+                    <li style="float:right">
+                           
+                        <a href="">Request a Demo</a>
+                    </li>
+                    
+                    <li class="log" style="float:right">
+                        <a href="">Log In</a>
+                    </li>
+                    
+                </div>
+            </ul>
+        </div>
+        <!-- UCHE'S CODE HERE!!! -->
+        <div class="mobile-header">
+			<div class="logo">
+				<a href="#"><img src="images/w.png" alt="" width="50px" height="30px"></a>
+			</div>        	
+
+			<div class="menu" onclick="showMenu()">
+				<i class="fa fa-bars"></i>
+			</div>
+        </div>
+        <div class="menu-links" id="menu">
+        	<div class="closebtn"><i class="fa fa-times-circle" onclick="closeMenu()"></i></div>
+			<ul>
+                <li class="">
+                    <a href="#">Products</a>
+                </li>
+                <li class="">
+                    <a href="#">Solutions</a>
+                </li>
+                <li class="">
+                    <a href="#">Resources</a>
+                </li>
+                <li class="">
+                    <a href="#">Pricing</a>
+                </li>
+                <li>
+                    <a href="">Request a Demo</a>
+                </li>
+                
+                <li class="log">
+                    <a href="">Log In</a>
+                </li>
+			</ul>		
+		</div>
+        <!-- UCHE'S CODE ends HERE!!! -->
+
+
+        <!-- Middle section -->
+        <section class="container">
+            <div class="middle">
+                <div class="middle-section">
+                    <h2>The <br> freedom <br> to create</h2>
+                </div>
+                <p>The online video editor trusted <br> by content creators to make <br> professional video in minutes. </p>
+                <br>
+                <div class="">
+                    <button type="button" name="button">Request a Demo</button>
+                </div>
+            </div>
+            <div class=" aside">
+                <img class="main" src="images/main1.jpg" alt="">
+            </div>
+        </section>
+        <!-- bottom -->
+        <div class="last">
+            <p class ="last-text"><img class="team" src="images/team1.jpg" alt="" width="50px;">&nbsp; Our world class business development team <br> &nbsp; will walk you through the platform.</p>
+        </div>
     </div>
 
-    <!-- Middle section -->
-<section class="container">
-  <div class="middle">
-    <div class="middle-section">
-      <h2>The <br> freedom <br> to create</h2>
-    </div>
-      <p>The online video editor trusted <br> by content creators to make <br> professional video in minutes. </p>
-    <br>
-    <div class="">
-      <button type="button" name="button">Request a Demo</button>
-    </div>
-  </div>
+    <script type="text/javascript">
+    	function showMenu(){
+    		document.getElementById('menu').style.display = "block";
+    	}
+    	function closeMenu(){
+    		document.getElementById("menu").style.display = "none"
+    	}
+    </script>
+</body>
 
-  <div class=" aside">
-    <img class="main" src="images/main.jpg" alt="">
-  </div>
-</section>
-
-<!-- bottom -->
-<div class="last">
-  <p><img class="team" src="images/team1.jpg" alt="" width="50px;">&nbsp; Our world class business development team <br> &nbsp; will walk you through the platform.</p>
-
-</div>
-  </body>
 </html>

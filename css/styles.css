@@ -1,60 +1,230 @@
-body{
-  font-family: 'Work Sans', sans-serif;
-  color: #fff;
-  background-color: #000;
-}
-  ul{
-  list-style-type: none;
-  padding: 0;
-  margin-top: 20px;
-  overflow: hidden;
-}
-li{
-  float: left;
-}
-li a{
-  display: block;
-  padding: 9px;
-  text-decoration: none;
-  color: #fff;
-}
-/* media query for small device */
-@media screen and (max-width:600px) {
-  li {
-    float: none;
-    width: 100%;
-  }
-.main{
-  margin-top: 50px;
-}
-}
-.container{
-  margin: 2px auto auto auto;
-}
-.middle{
-padding-left: 60px;
-display: block;
-overflow: hidden;
-float: left;
-width: 50%
-}
-button{
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 12px;
-  font-weight: bold;
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    
+    
 }
 
-h2{
-  font-weight: bold;
-font-size: 3rem;
-width: 40%;
+html {
+    font-size: 18px;
 }
-.last{
-  clear: both;
-  margin-bottom: 70px;
-  padding-left: 30px;
+
+
+/* MAIN CONTAINER */
+
+.main-container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 1040px;
+    padding: 0 40px;
 }
-.team{
-  float: left;
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    font-size: 0.7rem;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.demo {
+    margin-left: auto
+}
+
+li:first-child {
+    margin-right: 25px;
+}
+
+
+.mobile-header {
+    display: none;
+}
+
+.middle {
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    margin-top: -50px;
+}
+
+.aside {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    margin: 2px 20px 20px auto;
+    padding-left: 102px;
+}
+
+
+
+.main {
+    padding-right: 10px;
+}
+
+button {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid #00FFFF;
+    background-color: white;
+    color: #000;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    width: 100%;
+    margin-bottom: 30px
+}
+
+.last {
+    clear: both;
+    margin-bottom: 70px;
+    padding-left: 105px;
+}
+
+.team {
+    float: left;
+}
+.last-text{
+    font-size: 0.8rem;
+}
+.menu-links{
+    display: none;
+}
+.header {
+    padding: 0px;
+}
+
+/* media query for small device */
+
+@media only screen and (max-width: 600px) {
+
+    /* UCHE'S CODE HERE */
+   
+    .header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+        padding: 20px;
+        height: 50px;
+    }
+
+    .mobile-header .logo {
+        float: left;
+    }
+
+    .mobile-header .menu {
+        background: ;
+        height: 50px;
+        width: 50px;
+        float: right;
+        color: #fff;
+        text-align: right;
+        font-size: 24px;
+        padding-right: 40px;
+    }
+
+    .middle {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        float: none;
+    }
+
+    .aside {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .main {
+        margin-top: 50px;
+        width: 100%;
+        float: none;
+        display: block;
+    }
+
+    .container {
+        width: auto;
+        padding:0px 20px;
+        margin: 2px auto auto auto;
+    }
+
+    .team{
+        width: 70px;
+        height: auto;
+    }
+    .last-text{
+        font-size: 0.8rem;
+    }
+    .last .last-text br{
+        display; none;
+    }
+    .menu-links{
+        display: none;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 70px;
+        background: #fff;
+        color: #000;
+        
+    }
+    .menu-links ul{
+        display: block;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 30px 30px;
+        font-size: 0.7rem;
+    }
+    .menu-links ul li{
+        float: none;
+        padding: 10px 0;
+    }
+    .menu-links ul li a{
+        color: black;
+    }
+    .menu-links ul li:first-child {
+        margin-right: 0;
+    }
+    .closebtn{
+        color: #000;
+        font-size: 24px;
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+        padding-right: 40px;
+    }
+
 }
