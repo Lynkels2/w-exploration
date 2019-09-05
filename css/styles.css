@@ -128,7 +128,7 @@ h2 {
 
 /* media query for small device */
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
     /* mobile */
    
@@ -188,7 +188,7 @@ h2 {
     .team{
         width: 70px;
         object-fit: contain;
-        padding-right: 30px;
+       
     }
     .last{
         width: 80%;
