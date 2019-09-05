@@ -128,7 +128,7 @@ h2 {
 
 /* media query for small device */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 
     /* mobile */
    
@@ -197,6 +197,7 @@ h2 {
         font-size: 0.8rem;
         margin-top: 30px; 
         padding-right: 100px;
+        overflow: hidden;
     }
     .last .last-text br{
         display: none;
