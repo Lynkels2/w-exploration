@@ -187,20 +187,20 @@ h2 {
      
     .team{
         width: 70px;
-        object-fit: contain;
+        
        
+    }
+    .last{
+        clear: both;
+        margin-bottom: 70px;
     }
   
     .last-text{
         font-size: 0.3;
         margin-top: 25px; 
-        
-        
-       
+
     }
-    .last .last-text br{
-        display: none;
-    }
+
     .menu-links{
         display: none;
         width: 100%;
